@@ -68,6 +68,7 @@ And check if the warp=on option is enabled.
   
   
   Cloudflare Teams
+
 To connect to Cloudflare Teams and register the device on the whitelist, type:
 
 $ warp-cli teams-enroll DOMAIN.cloudflareaccess.com
