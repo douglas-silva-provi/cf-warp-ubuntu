@@ -4,7 +4,7 @@ script to install cloudflare warp on linux ubuntu
 To install CloudFlare WARP on linux, it is done through the terminal. Just below a step by step on how to install:
 
 
-  Before installation
+  ##Before installation
 
 On Ubuntu, open the terminal and type the following command to add the repository:
 
