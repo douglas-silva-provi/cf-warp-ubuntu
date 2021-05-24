@@ -9,8 +9,12 @@ To install CloudFlare WARP on linux, it is done through the terminal. Just below
 
 On Ubuntu, open the terminal and type the following command to add the repository:
 
-  $ echo ‘deb http://pkg.cloudflare.com/ <release ubuntu> main’ | sudo tee /etc/apt/sources.list.d/cloudflare-main.list
+  $ echo deb http://pkg.cloudflare.com/ <*release ubuntu*> main | sudo tee /etc/apt/sources.list.d/cloudflare-main.list
 
+ To find out what your release is, type on terminal:
+  
+  $ lsb_release -d
+  
 List of Releases:
     Focal = 20.04
     Bionic = 18.04
@@ -22,7 +26,7 @@ List of Releases:
     Precise = 12.04
 
 Example Ubuntu 20.04 (Focal): 
-  $ echo ‘deb http://pkg.cloudflare.com/ focal main’ | sudo tee /etc/apt/sources.list.d/cloudflare-main.list
+  $ echo deb http://pkg.cloudflare.com/ focal main | sudo tee /etc/apt/sources.list.d/cloudflare-main.list
 
 After creating the repository, you will need to import the GPG Key, to do this install the command 'curl' ($ sudo apt install curl) and then type the command:
 
